@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div>
       <h1>Page App</h1>
-      {/* <About />
-      <About /> */}
+      <About />
+      <About />
     </div>
   )
 }
