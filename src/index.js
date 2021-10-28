@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Contact from './Contact';
+import Serverclass from './Serverclass';
+import Function from './Function';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Contact />
+    <Serverclass />
+    <Function />
   </React.StrictMode>,
   document.getElementById('root')
 );
